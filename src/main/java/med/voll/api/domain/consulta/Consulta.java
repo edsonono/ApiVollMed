@@ -49,8 +49,10 @@ public class Consulta {                                 //possui o id, o objeto 
     public MotivoCancelamento motivoCancelamento;             //não esquecer do public
 
 
-    public void cancelar(@NotNull MotivoCancelamento motivoCancelamento) {
+    public void cancelar(@NotNull MotivoCancelamento motivoCancelamento) { 
+    	
         this.motivoCancelamento = motivoCancelamento;
+        
     }
 
 
